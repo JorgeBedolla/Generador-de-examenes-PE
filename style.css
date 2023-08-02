@@ -1,0 +1,363 @@
+
+body{
+    background: #007bff;
+}
+
+.cabecera{
+    background-color: white;
+    border: solid;
+    border-radius: 5px;
+    border-color: red;
+    padding: 10px;
+}
+
+.logo{
+    display: block;
+    margin: auto;
+}
+
+
+.negrita{
+    font-weight: bold;
+}
+
+
+#main{
+    /*display: inline-block;*/
+    padding: 10px;
+    position: absolute;
+    border: solid;
+    border-radius: 5px;
+    border-color: red;
+    background: white;
+    width: 30%;
+    height: auto;
+    top: 30%;
+    left: 35%;
+    align-items: center;
+
+}
+
+.question{
+    display: none;
+}
+
+.question.ON{
+    display: block;
+    padding: 10px;
+    position: absolute;
+    border: solid;
+    border-radius: 5px;
+    border-color: red;
+    background: white;
+    width: 50%;
+    height: auto;
+    top: 30%;
+    left: 25%;
+    align-items: center;
+}
+
+
+
+.calFinal{
+    font-size: x-large;
+}
+
+h1{
+    text-align: center;
+    color: #007bff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sig.ON{
+    display: block;
+    position: relative;
+    bottom: 10px;
+    top: 10px;
+    left: 520px;
+    margin: 10px;
+    padding: 5px;
+    border-radius: .25rem;
+    background-color: #007bff;
+    color: #fff;
+    transition: background-color .15s ease-in-out;
+
+}
+
+.sig{
+    display: none;
+}
+
+
+.texto{
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+}
+
+
+
+.option{
+    position: relative;
+    background-color: white;
+    border-radius: 15px;
+    margin: 5px;
+    border: solid transparent;
+    border-color: #007bff;
+    padding: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+}
+
+.option:hover{
+    position: relative;
+    background-color: #007bff;
+    border-radius: 15px;
+    margin: 5px;
+    border: solid transparent;
+    border-color: #007bff;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+
+.option.disabled{
+    display: none;
+}
+
+
+.correct.disabled{
+    border-radius: 15px;
+    margin: 5px;
+    border: solid transparent;
+    padding: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+    display: block;
+    color: #23903c;
+    border-color: #23903c;
+    background: #d4edda;
+}
+
+.incorrect.disabled{
+    border-radius: 15px;
+    margin: 5px;
+    border: solid transparent;
+    padding: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+    display: block;
+    color: #a42834;
+    background: #f8d7da;
+    border-color: #a42834;
+}
+
+
+.calificacion.ON{
+    display: block;
+    padding: 10px;
+    position: absolute;
+    border: solid;
+    border-radius: 10px;
+    border-color: red;
+    background: white;
+    width: 50%;
+    height: 60%;
+    top: 30%;
+    left: 25%;
+    align-items: center;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    
+}
+
+.calificacion{
+    display: none; 
+}
+
+input[type="checkbox"]:focus {
+    outline: none;
+}
+
+input[type="text"]:focus{
+
+    border-radius: 5px;
+    border: solid;
+    outline: none;
+    border-color: black;
+    
+}
+
+input[type="text"]{
+    position: relative;
+    height: 40%;
+    width: 90%;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+
+label{
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+input[type="submit"]{
+    position: relative;
+    outline: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
+    border-color: #007bff;
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    color: black;
+}
+
+input[type="submit"]:hover{
+    position: relative;
+    outline: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
+    border-color: #007bff;
+    background-color: #007bff;
+    height: 100%;
+    width: 100%;
+    color: white;
+}
+
+
+.checkIcon{
+    position: absolute;
+    width: 6%;
+    height: 90%;
+    top: 10%;
+    left: 90%;
+}
+
+.face{
+    position: absolute;
+    width: 7%;
+    height: 15%;
+    top: 5%;
+    left: 47.5%;
+}
+
+.retry{
+    position: absolute;
+    width: 98%;
+    height: 15%;
+    top: 80%;
+    left: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    background-color: white;
+    border: solid #007bff;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #007bff;
+}
+
+.retry:hover{
+    position: absolute;
+    width: 98%;
+    height: 15%;
+    top: 80%;
+    left: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    background-color: #007bff;
+    border: solid #007bff;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+}
+
+.retry:focus{
+    position: absolute;
+    width: 98%;
+    height: 15%;
+    top: 80%;
+    left: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    background-color: red;
+    border: red;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+    box-shadow: -5px -5px 5px black;
+}
+
+
+@media(max-width: 800px){
+    body{
+        background: #007bff;
+    }
+
+    #main{
+        /*display: inline-block;*/
+        padding: 10px;
+        position: absolute;
+        border: solid;
+        border-radius: 5px;
+        border-color: red;
+        background: white;
+        width: 90%;
+        height: auto;
+        top: 30%;
+        left: 3%;
+        align-items: center;
+    
+    }
+
+
+    .question.ON{
+        display: block;
+        padding: 10px;
+        position: absolute;
+        border: solid;
+        border-radius: 5px;
+        border-color: red;
+        background: white;
+        width: 90%;
+        height: auto;
+        top: 30%;
+        left: 3%;
+        align-items: center;
+    }
+
+    .sig.ON{
+        display: block;
+        position: absolute;
+        bottom: 10px;
+        top: 105%;
+        left: 35%;
+        width: 150px;
+        height: 35px;
+        margin: 10px;
+        padding: 5px;
+        border-radius: .25rem;
+        background-color: white;
+        color: black;
+        transition: background-color .15s ease-in-out;
+    
+    }
+
+}
